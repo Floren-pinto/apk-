@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="IMT style.css">
+    <title>pengukur obesitas</title>
+</head>
+<body>
+    <div class="container">
+        <div class="output">
+            <h1 class="result" id="output">Rezultadu iha ne</h1>
+            <div id="interpretation">analiza dadus ba saude Obesidade</div>
+        </div>
+        <div class="input-data">
+            <div class="weight-box">
+                <label for="weight">Ita nia todan:</label>
+                <input type="number" class="data1" id="weight" placeholder="in KG" >
+            </div>
+            <div class="weight-box">
+                <label for="height">Ita nia as:</label>
+                <input type="number" class="data2" id="height" placeholder="in Meter">
+            </div>
+        </div>
+        <div class="button">
+            <button type="submit" class="btn" id="submit" onclick="bmi()">Submete</button>       
+        </div>    
+    </div>
+    
+
+    <!-- script -->
+    <script src="IMT.js"></script>
+</body>
+</html>
